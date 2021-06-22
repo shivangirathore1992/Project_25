@@ -12,7 +12,7 @@ class Paper extends BaseClass {
 
         var pos = this.body.position;
         
-        pos.x = World.mouseX;
-        pos.y = World.mouseY;
+        pos.x = mouseX;
+        pos.y = mouseY;
     }
 }
