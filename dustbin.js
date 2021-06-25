@@ -7,6 +7,6 @@ class Dustbin extends BaseClass {
        
     } display() {
          scale(0.5,0.5)
-         image(this.image, pos.x, pos.y, this.width, this.height);
+         image(this.image, 300,300, 100,100);
     }
 }
